@@ -37,8 +37,8 @@ print("Number of days left:", days_left)
 '''
 Exercise 4:** Check if the word "IA" is includes in the story.
 '''
-ia_in_story = False # write your code here
-if (ia_in_story):
+ia_in_story =  story.find("IA") >= 0
+if (ia_in_story) : 
   print("The word 'IA' is in the story")
 else:
   print("The word 'IA' is not in the story")
@@ -48,12 +48,14 @@ else:
 '''
 Exercise 5:** Create a list of the words in the story and print the first 10 words.
 '''
-words = [] # write your code here
+words = [story] 
+words
 print("First 10 words in the story:", words)
 
 '''
 Exercise 6:** Create a list of the words in the story and print the last 10 words.
 '''
+words = {}
 print("Last 10 words in the story:", words)
 
 '''
